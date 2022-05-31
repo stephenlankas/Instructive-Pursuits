@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""</a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>world biggest online classes</h1>
+            <p>making website is one of the biggest thing in the world. <br> just need to have learn html css and javascript</p>
+            <a href="" class="hero-btn">visit us to know more</a>
+
+        </div>
+
+    </section>
+    <!-----course------>
+    <section class="course">
+        <h1>courses we offer</h1>
+        <p>Lorem ipsum</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet quas deserunt alias. </p>
+            </div>
+            <div class="course-col">
+                <h3>beginner</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet quas deserunt alias. </p>
+            </div>
+            <div class="course-col">
+                <h3>semi beginner</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet quas deserunt alias. </p>
+            </div>
+        </div>
+
+    </section>
+    <script>
+        var navlinks =document.getElementById(navlinks);
+        function showmenu(){
+            navlinks.style.right= "0";
+        }
+        function hidemenu(){
+            navlinks.style.right= "-200px";
+        }
+    </script>
+</body>
+</html>
